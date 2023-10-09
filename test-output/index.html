@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-WebfocusCE_UI">
+              <span class="suite-name border-failed">WebfocusCE_UI</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-WebfocusCE_UI">
+                    <span>C:\Webfocus_UI_Automation\src\main\resources\sanity.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-WebfocusCE_UI">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-WebfocusCE_UI">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-WebfocusCE_UI">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-WebfocusCE_UI">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-WebfocusCE_UI">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-WebfocusCE_UI">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 1 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-WebfocusCE_UI" class="hide-methods failed suite-WebfocusCE_UI"> (hide)</a> <!-- hide-methods failed suite-WebfocusCE_UI -->
+                      <a href="#" panel-name="suite-WebfocusCE_UI" class="show-methods failed suite-WebfocusCE_UI"> (show)</a> <!-- show-methods failed suite-WebfocusCE_UI -->
+                    </span>
+                    <div class="method-list-content failed suite-WebfocusCE_UI">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebfocusCE_UI" title="webfocus_UI_TestCases.ManagementCenterTest" hash-for-method="validate_WFCE_Version">validate_WFCE_Version</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-WebfocusCE_UI -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-WebfocusCE_UI" class="hide-methods passed suite-WebfocusCE_UI"> (hide)</a> <!-- hide-methods passed suite-WebfocusCE_UI -->
+                      <a href="#" panel-name="suite-WebfocusCE_UI" class="show-methods passed suite-WebfocusCE_UI"> (show)</a> <!-- show-methods passed suite-WebfocusCE_UI -->
+                    </span>
+                    <div class="method-list-content passed suite-WebfocusCE_UI">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebfocusCE_UI" title="webfocus_UI_TestCases.VisualizationTest" hash-for-method="Create_Visualization">Create_Visualization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebfocusCE_UI" title="webfocus_UI_TestCases.VisualizationTest" hash-for-method="Delete_Visulization">Delete_Visulization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebfocusCE_UI" title="webfocus_UI_TestCases.VisualizationTest" hash-for-method="Edit_Visulization">Edit_Visulization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebfocusCE_UI" title="webfocus_UI_TestCases.LoginPageTest" hash-for-method="ResetView">ResetView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebfocusCE_UI" title="webfocus_UI_TestCases.ManagementCenterTest" hash-for-method="ResetView">ResetView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebfocusCE_UI" title="webfocus_UI_TestCases.LoginPageTest" hash-for-method="SignOut">SignOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebfocusCE_UI" title="webfocus_UI_TestCases.ManagementCenterTest" hash-for-method="SignOut">SignOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebfocusCE_UI" title="webfocus_UI_TestCases.VisualizationTest" hash-for-method="SignOut">SignOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebfocusCE_UI" title="webfocus_UI_TestCases.LoginPageTest" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebfocusCE_UI" title="webfocus_UI_TestCases.LoginPageTest" hash-for-method="switchToParentFrame">switchToParentFrame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebfocusCE_UI" title="webfocus_UI_TestCases.ManagementCenterTest" hash-for-method="switchToParentFrame">switchToParentFrame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebfocusCE_UI" title="webfocus_UI_TestCases.LoginPageTest" hash-for-method="validate_LoginPage">validate_LoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebfocusCE_UI" title="webfocus_UI_TestCases.ManagementCenterTest" hash-for-method="validate_LoginPage">validate_LoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebfocusCE_UI" title="webfocus_UI_TestCases.VisualizationTest" hash-for-method="validate_LoginPage">validate_LoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-WebfocusCE_UI -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-WebfocusCE_UI" class="panel WebfocusCE_UI">
+          <div class="suite-WebfocusCE_UI-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">webfocus_UI_TestCases.ManagementCenterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_WFCE_Version">
+                  </a> <!-- validate_WFCE_Version -->
+                  <span class="method-name">validate_WFCE_Version</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[text()=&quot;Cluster Management Console&quot;]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at webfocus_UI_Pages.ManagementCenterPage.check_WFCE_version(ManagementCenterPage.java:49)
+	at webfocus_UI_TestCases.ManagementCenterTest.validate_WFCE_Version(ManagementCenterTest.java:36)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&quot;Cluster Management Console&quot;]&quot;}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows Server 2019&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7123278eeb17549c014662df312d1f3, findElement {using=xpath, value=//div[text()=&quot;Cluster Management Console&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:51252}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51252/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a7123278eeb17549c014662df312d1f3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 30 more
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebfocusCE_UI-class-failed -->
+          <div class="suite-WebfocusCE_UI-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">webfocus_UI_TestCases.VisualizationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Create_Visualization">
+                  </a> <!-- Create_Visualization -->
+                  <span class="method-name">Create_Visualization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Delete_Visulization">
+                  </a> <!-- Delete_Visulization -->
+                  <span class="method-name">Delete_Visulization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Edit_Visulization">
+                  </a> <!-- Edit_Visulization -->
+                  <span class="method-name">Edit_Visulization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignOut">
+                  </a> <!-- SignOut -->
+                  <span class="method-name">SignOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_LoginPage">
+                  </a> <!-- validate_LoginPage -->
+                  <span class="method-name">validate_LoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebfocusCE_UI-class-passed -->
+          <div class="suite-WebfocusCE_UI-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">webfocus_UI_TestCases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ResetView">
+                  </a> <!-- ResetView -->
+                  <span class="method-name">ResetView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignOut">
+                  </a> <!-- SignOut -->
+                  <span class="method-name">SignOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="switchToParentFrame">
+                  </a> <!-- switchToParentFrame -->
+                  <span class="method-name">switchToParentFrame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_LoginPage">
+                  </a> <!-- validate_LoginPage -->
+                  <span class="method-name">validate_LoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebfocusCE_UI-class-passed -->
+          <div class="suite-WebfocusCE_UI-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">webfocus_UI_TestCases.ManagementCenterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ResetView">
+                  </a> <!-- ResetView -->
+                  <span class="method-name">ResetView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignOut">
+                  </a> <!-- SignOut -->
+                  <span class="method-name">SignOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="switchToParentFrame">
+                  </a> <!-- switchToParentFrame -->
+                  <span class="method-name">switchToParentFrame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_LoginPage">
+                  </a> <!-- validate_LoginPage -->
+                  <span class="method-name">validate_LoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebfocusCE_UI-class-passed -->
+        </div> <!-- panel WebfocusCE_UI -->
+        <div panel-name="test-xml-WebfocusCE_UI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Webfocus_UI_Automation\src\main\resources\sanity.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;WebfocusCE_UI&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verification of Login Page&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;webfocus_UI_TestCases.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verification of Login Page --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verification Webfocus CE version on UI&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;webfocus_UI_TestCases.ManagementCenterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verification Webfocus CE version on UI --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verification of Create, Edit and Delete Visualization&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;webfocus_UI_TestCases.VisualizationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verification of Create, Edit and Delete Visualization --&gt;
+&lt;/suite&gt; &lt;!-- WebfocusCE_UI --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-WebfocusCE_UI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for WebfocusCE_UI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Verification of Login Page (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verification Webfocus CE version on UI (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verification of Create, Edit and Delete Visualization (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-WebfocusCE_UI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for WebfocusCE_UI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-WebfocusCE_UI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for WebfocusCE_UI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_WebfocusCE_UI');
+function tableData_WebfocusCE_UI() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Create_Visualization')
+data.setCell(0, 2, 'webfocus_UI_TestCases.VisualizationTest')
+data.setCell(0, 3, 87701);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validate_WFCE_Version')
+data.setCell(1, 2, 'webfocus_UI_TestCases.ManagementCenterTest')
+data.setCell(1, 3, 60275);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Delete_Visulization')
+data.setCell(2, 2, 'webfocus_UI_TestCases.VisualizationTest')
+data.setCell(2, 3, 57809);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Edit_Visulization')
+data.setCell(3, 2, 'webfocus_UI_TestCases.VisualizationTest')
+data.setCell(3, 3, 47500);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ResetView')
+data.setCell(4, 2, 'webfocus_UI_TestCases.ManagementCenterTest')
+data.setCell(4, 3, 7318);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ResetView')
+data.setCell(5, 2, 'webfocus_UI_TestCases.LoginPageTest')
+data.setCell(5, 3, 7301);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'login')
+data.setCell(6, 2, 'webfocus_UI_TestCases.LoginPageTest')
+data.setCell(6, 3, 6425);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validate_LoginPage')
+data.setCell(7, 2, 'webfocus_UI_TestCases.VisualizationTest')
+data.setCell(7, 3, 5891);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validate_LoginPage')
+data.setCell(8, 2, 'webfocus_UI_TestCases.ManagementCenterTest')
+data.setCell(8, 3, 5766);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'SignOut')
+data.setCell(9, 2, 'webfocus_UI_TestCases.ManagementCenterTest')
+data.setCell(9, 3, 3118);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'SignOut')
+data.setCell(10, 2, 'webfocus_UI_TestCases.LoginPageTest')
+data.setCell(10, 3, 3100);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'SignOut')
+data.setCell(11, 2, 'webfocus_UI_TestCases.VisualizationTest')
+data.setCell(11, 3, 3037);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'switchToParentFrame')
+data.setCell(12, 2, 'webfocus_UI_TestCases.LoginPageTest')
+data.setCell(12, 3, 112);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validate_LoginPage')
+data.setCell(13, 2, 'webfocus_UI_TestCases.LoginPageTest')
+data.setCell(13, 3, 32);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'switchToParentFrame')
+data.setCell(14, 2, 'webfocus_UI_TestCases.ManagementCenterTest')
+data.setCell(14, 3, 32);
+window.suiteTableData['WebfocusCE_UI']= { tableData: data, tableDiv: 'times-div-WebfocusCE_UI'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-WebfocusCE_UI">
+              </div> <!-- times-div-WebfocusCE_UI -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-WebfocusCE_UI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for WebfocusCE_UI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-WebfocusCE_UI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-WebfocusCE_UI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">webfocus_UI_TestCases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">validate_LoginPage</span>
+                <span class="method-start">16215 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">16278 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">switchToParentFrame</span>
+                <span class="method-start">22710 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ResetView</span>
+                <span class="method-start">22837 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SignOut</span>
+                <span class="method-start">30138 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">webfocus_UI_TestCases.ManagementCenterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">33363 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">validate_LoginPage</span>
+                <span class="method-start">37065 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validate_WFCE_Version</span>
+                <span class="method-start">42831 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">switchToParentFrame</span>
+                <span class="method-start">103137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ResetView</span>
+                <span class="method-start">103169 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SignOut</span>
+                <span class="method-start">110487 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">webfocus_UI_TestCases.VisualizationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">113638 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">validate_LoginPage</span>
+                <span class="method-start">117309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Create_Visualization</span>
+                <span class="method-start">123200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Edit_Visulization</span>
+                <span class="method-start">210906 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Delete_Visulization</span>
+                <span class="method-start">258406 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SignOut</span>
+                <span class="method-start">316215 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

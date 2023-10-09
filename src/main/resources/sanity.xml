@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WebfocusCE_UI">
+
+	
+
+	<test name="Verification of Login Page">
+		<classes>
+			<class name="webfocus_UI_TestCases.LoginPageTest"></class>
+		</classes>
+	</test>
+	
+	<test name="Verification Webfocus CE version on UI">
+		<classes>
+			<class name="webfocus_UI_TestCases.ManagementCenterTest"></class>
+		</classes>
+	</test>
+
+
+    <test name="Verification of Create, Edit and Delete Visualization">
+		<classes>
+			<class name="webfocus_UI_TestCases.VisualizationTest"></class>
+		</classes>
+	</test>
+ 
+
+	
+	
+
+</suite> 

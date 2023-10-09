@@ -1,0 +1,6 @@
+webfocus_UI_Pages\VisualizationPage.class
+webfocus_UI_Pages\LoginPage.class
+webfocus_UI_Pages\ManagementCenterPage.class
+testBaseJava\TestBase.class
+utilities\TestData.class
+utilities\Utility.class

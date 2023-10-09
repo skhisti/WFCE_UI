@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="15" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WebfocusCE_UI" duration-ms="319252" started-at="2023-09-06T02:47:43 PDT" finished-at="2023-09-06T02:53:02 PDT">
+    <groups>
+    </groups>
+    <test name="Verification of Login Page" duration-ms="33238" started-at="2023-09-06T02:47:43 PDT" finished-at="2023-09-06T02:48:16 PDT">
+      <class name="webfocus_UI_TestCases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:webfocus_UI_TestCases.LoginPageTest@36b4cef0]" name="setup" is-config="true" duration-ms="16184" started-at="2023-09-06T02:47:43 PDT" finished-at="2023-09-06T02:47:59 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validate_LoginPage()[pri:1, instance:webfocus_UI_TestCases.LoginPageTest@36b4cef0]" name="validate_LoginPage" duration-ms="32" started-at="2023-09-06T02:47:59 PDT" finished-at="2023-09-06T02:47:59 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_LoginPage -->
+        <test-method status="PASS" signature="login()[pri:2, instance:webfocus_UI_TestCases.LoginPageTest@36b4cef0]" name="login" duration-ms="6425" started-at="2023-09-06T02:47:59 PDT" finished-at="2023-09-06T02:48:06 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="switchToParentFrame()[pri:3, instance:webfocus_UI_TestCases.LoginPageTest@36b4cef0]" name="switchToParentFrame" duration-ms="112" started-at="2023-09-06T02:48:06 PDT" finished-at="2023-09-06T02:48:06 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToParentFrame -->
+        <test-method status="PASS" signature="ResetView()[pri:4, instance:webfocus_UI_TestCases.LoginPageTest@36b4cef0]" name="ResetView" duration-ms="7301" started-at="2023-09-06T02:48:06 PDT" finished-at="2023-09-06T02:48:13 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetView -->
+        <test-method status="PASS" signature="SignOut()[pri:5, instance:webfocus_UI_TestCases.LoginPageTest@36b4cef0]" name="SignOut" duration-ms="3100" started-at="2023-09-06T02:48:13 PDT" finished-at="2023-09-06T02:48:16 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOut -->
+      </class> <!-- webfocus_UI_TestCases.LoginPageTest -->
+    </test> <!-- Verification of Login Page -->
+    <test name="Verification Webfocus CE version on UI" duration-ms="80244" started-at="2023-09-06T02:48:16 PDT" finished-at="2023-09-06T02:49:36 PDT">
+      <class name="webfocus_UI_TestCases.ManagementCenterTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:webfocus_UI_TestCases.ManagementCenterTest@50d0686]" name="setup" is-config="true" duration-ms="3702" started-at="2023-09-06T02:48:16 PDT" finished-at="2023-09-06T02:48:20 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validate_LoginPage()[pri:1, instance:webfocus_UI_TestCases.ManagementCenterTest@50d0686]" name="validate_LoginPage" duration-ms="5766" started-at="2023-09-06T02:48:20 PDT" finished-at="2023-09-06T02:48:26 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_LoginPage -->
+        <test-method status="FAIL" signature="validate_WFCE_Version()[pri:2, instance:webfocus_UI_TestCases.ManagementCenterTest@50d0686]" name="validate_WFCE_Version" duration-ms="60275" started-at="2023-09-06T02:48:26 PDT" finished-at="2023-09-06T02:49:26 PDT">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[text()="Cluster Management Console"]' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[text()="Cluster Management Console"]' (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at webfocus_UI_Pages.ManagementCenterPage.check_WFCE_version(ManagementCenterPage.java:49)
+at webfocus_UI_TestCases.ManagementCenterTest.validate_WFCE_Version(ManagementCenterTest.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()="Cluster Management Console"]"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7123278eeb17549c014662df312d1f3, findElement {using=xpath, value=//div[text()="Cluster Management Console"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:51252}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51252/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a7123278eeb17549c014662df312d1f3
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_WFCE_Version -->
+        <test-method status="PASS" signature="switchToParentFrame()[pri:3, instance:webfocus_UI_TestCases.ManagementCenterTest@50d0686]" name="switchToParentFrame" duration-ms="32" started-at="2023-09-06T02:49:26 PDT" finished-at="2023-09-06T02:49:26 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToParentFrame -->
+        <test-method status="PASS" signature="ResetView()[pri:4, instance:webfocus_UI_TestCases.ManagementCenterTest@50d0686]" name="ResetView" duration-ms="7318" started-at="2023-09-06T02:49:26 PDT" finished-at="2023-09-06T02:49:33 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetView -->
+        <test-method status="PASS" signature="SignOut()[pri:5, instance:webfocus_UI_TestCases.ManagementCenterTest@50d0686]" name="SignOut" duration-ms="3118" started-at="2023-09-06T02:49:33 PDT" finished-at="2023-09-06T02:49:36 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOut -->
+      </class> <!-- webfocus_UI_TestCases.ManagementCenterTest -->
+    </test> <!-- Verification Webfocus CE version on UI -->
+    <test name="Verification of Create, Edit and Delete Visualization" duration-ms="205614" started-at="2023-09-06T02:49:36 PDT" finished-at="2023-09-06T02:53:02 PDT">
+      <class name="webfocus_UI_TestCases.VisualizationTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:webfocus_UI_TestCases.VisualizationTest@3aeaafa6]" name="setup" is-config="true" duration-ms="3671" started-at="2023-09-06T02:49:36 PDT" finished-at="2023-09-06T02:49:40 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validate_LoginPage()[pri:1, instance:webfocus_UI_TestCases.VisualizationTest@3aeaafa6]" name="validate_LoginPage" duration-ms="5891" started-at="2023-09-06T02:49:40 PDT" finished-at="2023-09-06T02:49:46 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_LoginPage -->
+        <test-method status="PASS" signature="Create_Visualization()[pri:2, instance:webfocus_UI_TestCases.VisualizationTest@3aeaafa6]" name="Create_Visualization" duration-ms="87701" started-at="2023-09-06T02:49:46 PDT" finished-at="2023-09-06T02:51:14 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Visualization -->
+        <test-method status="PASS" signature="Edit_Visulization()[pri:3, instance:webfocus_UI_TestCases.VisualizationTest@3aeaafa6]" name="Edit_Visulization" duration-ms="47500" started-at="2023-09-06T02:51:14 PDT" finished-at="2023-09-06T02:52:01 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_Visulization -->
+        <test-method status="PASS" signature="Delete_Visulization()[pri:4, instance:webfocus_UI_TestCases.VisualizationTest@3aeaafa6]" name="Delete_Visulization" duration-ms="57809" started-at="2023-09-06T02:52:01 PDT" finished-at="2023-09-06T02:52:59 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Visulization -->
+        <test-method status="PASS" signature="SignOut()[pri:5, instance:webfocus_UI_TestCases.VisualizationTest@3aeaafa6]" name="SignOut" duration-ms="3037" started-at="2023-09-06T02:52:59 PDT" finished-at="2023-09-06T02:53:02 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOut -->
+      </class> <!-- webfocus_UI_TestCases.VisualizationTest -->
+    </test> <!-- Verification of Create, Edit and Delete Visualization -->
+  </suite> <!-- WebfocusCE_UI -->
+</testng-results>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WebfocusCE_UI" duration-ms="267672" started-at="2023-07-26T07:24:47 PDT" finished-at="2023-07-26T07:29:15 PDT">
+    <groups>
+    </groups>
+    <test name="Verification of Login Page" duration-ms="21996" started-at="2023-07-26T07:24:47 PDT" finished-at="2023-07-26T07:25:09 PDT">
+      <class name="webfocus_UI_TestCases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:webfocus_UI_TestCases.LoginPageTest@27a8c74e]" name="setup" is-config="true" duration-ms="5427" started-at="2023-07-26T07:24:47 PDT" finished-at="2023-07-26T07:24:52 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validate_LoginPage()[pri:1, instance:webfocus_UI_TestCases.LoginPageTest@27a8c74e]" name="validate_LoginPage" duration-ms="17" started-at="2023-07-26T07:24:52 PDT" finished-at="2023-07-26T07:24:52 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_LoginPage -->
+        <test-method status="PASS" signature="login()[pri:2, instance:webfocus_UI_TestCases.LoginPageTest@27a8c74e]" name="login" duration-ms="5890" started-at="2023-07-26T07:24:52 PDT" finished-at="2023-07-26T07:24:58 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="switchToParentFrame()[pri:3, instance:webfocus_UI_TestCases.LoginPageTest@27a8c74e]" name="switchToParentFrame" duration-ms="8" started-at="2023-07-26T07:24:58 PDT" finished-at="2023-07-26T07:24:58 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToParentFrame -->
+        <test-method status="PASS" signature="ResetView()[pri:4, instance:webfocus_UI_TestCases.LoginPageTest@27a8c74e]" name="ResetView" duration-ms="7289" started-at="2023-07-26T07:24:58 PDT" finished-at="2023-07-26T07:25:06 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetView -->
+        <test-method status="PASS" signature="SignOut()[pri:5, instance:webfocus_UI_TestCases.LoginPageTest@27a8c74e]" name="SignOut" duration-ms="3295" started-at="2023-07-26T07:25:06 PDT" finished-at="2023-07-26T07:25:09 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOut -->
+      </class> <!-- webfocus_UI_TestCases.LoginPageTest -->
+    </test> <!-- Verification of Login Page -->
+    <test name="Verification Webfocus CE version on UI" duration-ms="32919" started-at="2023-07-26T07:25:09 PDT" finished-at="2023-07-26T07:25:42 PDT">
+      <class name="webfocus_UI_TestCases.ManagementCenterTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:webfocus_UI_TestCases.ManagementCenterTest@2353b3e6]" name="setup" is-config="true" duration-ms="3261" started-at="2023-07-26T07:25:09 PDT" finished-at="2023-07-26T07:25:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validate_LoginPage()[pri:1, instance:webfocus_UI_TestCases.ManagementCenterTest@2353b3e6]" name="validate_LoginPage" duration-ms="5955" started-at="2023-07-26T07:25:12 PDT" finished-at="2023-07-26T07:25:18 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_LoginPage -->
+        <test-method status="PASS" signature="validate_WFCE_Version()[pri:2, instance:webfocus_UI_TestCases.ManagementCenterTest@2353b3e6]" name="validate_WFCE_Version" duration-ms="13237" started-at="2023-07-26T07:25:18 PDT" finished-at="2023-07-26T07:25:31 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_WFCE_Version -->
+        <test-method status="PASS" signature="switchToParentFrame()[pri:3, instance:webfocus_UI_TestCases.ManagementCenterTest@2353b3e6]" name="switchToParentFrame" duration-ms="7" started-at="2023-07-26T07:25:31 PDT" finished-at="2023-07-26T07:25:31 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToParentFrame -->
+        <test-method status="PASS" signature="ResetView()[pri:4, instance:webfocus_UI_TestCases.ManagementCenterTest@2353b3e6]" name="ResetView" duration-ms="7280" started-at="2023-07-26T07:25:31 PDT" finished-at="2023-07-26T07:25:39 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetView -->
+        <test-method status="PASS" signature="SignOut()[pri:5, instance:webfocus_UI_TestCases.ManagementCenterTest@2353b3e6]" name="SignOut" duration-ms="3174" started-at="2023-07-26T07:25:39 PDT" finished-at="2023-07-26T07:25:42 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOut -->
+      </class> <!-- webfocus_UI_TestCases.ManagementCenterTest -->
+    </test> <!-- Verification Webfocus CE version on UI -->
+    <test name="Verification of Create, Edit and Delete Visualization" duration-ms="212706" started-at="2023-07-26T07:25:42 PDT" finished-at="2023-07-26T07:29:15 PDT">
+      <class name="webfocus_UI_TestCases.VisualizationTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:webfocus_UI_TestCases.VisualizationTest@3d921e20]" name="setup" is-config="true" duration-ms="3331" started-at="2023-07-26T07:25:42 PDT" finished-at="2023-07-26T07:25:45 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validate_LoginPage()[pri:1, instance:webfocus_UI_TestCases.VisualizationTest@3d921e20]" name="validate_LoginPage" duration-ms="5730" started-at="2023-07-26T07:25:45 PDT" finished-at="2023-07-26T07:25:51 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_LoginPage -->
+        <test-method status="PASS" signature="Create_Visualization()[pri:2, instance:webfocus_UI_TestCases.VisualizationTest@3d921e20]" name="Create_Visualization" duration-ms="93235" started-at="2023-07-26T07:25:51 PDT" finished-at="2023-07-26T07:27:24 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Visualization -->
+        <test-method status="PASS" signature="Edit_Visulization()[pri:3, instance:webfocus_UI_TestCases.VisualizationTest@3d921e20]" name="Edit_Visulization" duration-ms="49767" started-at="2023-07-26T07:27:24 PDT" finished-at="2023-07-26T07:28:14 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_Visulization -->
+        <test-method status="PASS" signature="Delete_Visulization()[pri:4, instance:webfocus_UI_TestCases.VisualizationTest@3d921e20]" name="Delete_Visulization" duration-ms="57459" started-at="2023-07-26T07:28:14 PDT" finished-at="2023-07-26T07:29:11 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Visulization -->
+        <test-method status="PASS" signature="SignOut()[pri:5, instance:webfocus_UI_TestCases.VisualizationTest@3d921e20]" name="SignOut" duration-ms="3176" started-at="2023-07-26T07:29:11 PDT" finished-at="2023-07-26T07:29:15 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOut -->
+      </class> <!-- webfocus_UI_TestCases.VisualizationTest -->
+    </test> <!-- Verification of Create, Edit and Delete Visualization -->
+  </suite> <!-- WebfocusCE_UI -->
+</testng-results>

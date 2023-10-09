@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="268.709" tests="15" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk1.8.0_251\jre\bin"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Webfocus_UI_Automation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Webfocus_UI_Automation"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Java\jdk1.8.0_251\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SVCACT~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows Server 2019"/>
+    <property name="classworlds.conf" value="C:\workspace_wfce_ui_auto\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7257196066841638896.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Java\jdk1.8.0_251\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Java/jdk1.8.0_251/bin/../jre/bin/server;C:/Java/jdk1.8.0_251/bin/../jre/bin;C:/Java/jdk1.8.0_251/bin/../jre/lib/amd64;C:\ant\apache-ant-1.9.15\bin;C:\Java\jdk1.8.0_251\bin;C:\apache-maven-3.6.3\bin;C:\Java\jdk-11.0.8\bin;C:\Python382;C:\Python382\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Users\svcactivemxsg\AppData\Local\Microsoft\WindowsApps;C:\eclipse-SDK-4.15-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\svcactivemxsg"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="svcactivemxsg"/>
+    <property name="java.class.path" value="C:\eclipse-SDK-4.15-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.15.0.20200310-1832\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Java\jdk1.8.0_251\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="java.ext.dirs" value="C:\Java\jdk1.8.0_251\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Java\jdk1.8.0_251\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Webfocus_UI_Automation\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="validate_LoginPage" classname="webfocus_UI_TestCases.LoginPageTest" time="0.018"/>
+  <testcase name="login" classname="webfocus_UI_TestCases.LoginPageTest" time="5.884"/>
+  <testcase name="switchToParentFrame" classname="webfocus_UI_TestCases.LoginPageTest" time="0.007"/>
+  <testcase name="ResetView" classname="webfocus_UI_TestCases.LoginPageTest" time="7.289"/>
+  <testcase name="SignOut" classname="webfocus_UI_TestCases.LoginPageTest" time="3.296"/>
+  <testcase name="validate_LoginPage" classname="webfocus_UI_TestCases.ManagementCenterTest" time="5.958"/>
+  <testcase name="validate_WFCE_Version" classname="webfocus_UI_TestCases.ManagementCenterTest" time="13.235"/>
+  <testcase name="switchToParentFrame" classname="webfocus_UI_TestCases.ManagementCenterTest" time="0.007"/>
+  <testcase name="ResetView" classname="webfocus_UI_TestCases.ManagementCenterTest" time="7.279"/>
+  <testcase name="SignOut" classname="webfocus_UI_TestCases.ManagementCenterTest" time="3.174"/>
+  <testcase name="validate_LoginPage" classname="webfocus_UI_TestCases.VisualizationTest" time="5.73"/>
+  <testcase name="Create_Visualization" classname="webfocus_UI_TestCases.VisualizationTest" time="93.236"/>
+  <testcase name="Edit_Visulization" classname="webfocus_UI_TestCases.VisualizationTest" time="49.767"/>
+  <testcase name="Delete_Visulization" classname="webfocus_UI_TestCases.VisualizationTest" time="57.463"/>
+  <testcase name="SignOut" classname="webfocus_UI_TestCases.VisualizationTest" time="3.174"/>
+</testsuite>
